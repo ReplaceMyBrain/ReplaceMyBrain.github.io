@@ -15,19 +15,22 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Replace My Brain"
+locale                   : "ko-KR"
+title                    : "Replace My Brain" #메타 태그에 들어가는 영역
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Replace My Brain"
-description              : "This site replace my brain."
-url                      : "https://ReplaceMyBrain.github.io.github.io"
+subtitle                 : "나의 뇌를 대체할 블로그" # 타이틀 아래에 나오는 작은 글씨
+name                     : "Replace My Brain" #하단에 이름 보이는 영역
+description              : "This site replace my brain." #meta tag에 들어가는 영역
+url                      : "https://ReplaceMyBrain.github.io" #호스트 주소
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" #홈페이지 기본 티져 이미지
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" #타이틀 옆에 작게 들어갈 이미지
+masthead_title           : "Replace My Brain" #홈페이지 최 상단에 들어갈 타이틀
+
+
+#댓글
+# breadcrumbs            : false # true, false (default) 
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -46,6 +49,8 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+
+#구글recaptcha 세팅
 reCaptcha:
   siteKey                :
   secret                 :
@@ -63,11 +68,14 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
+
 
 # Social Sharing
 twitter:
@@ -92,10 +100,10 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# Site Author / 개인 프로필
 author:
   name             : "DW"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg" //프로필이미지
   bio              : "HI"
   location         : "Seoul,Korea"
   email            :
@@ -114,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com//ReplaceMyBrain"
+      url: "https://github.com//ReplaceMyBrain"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -130,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com//ReplaceMyBrain"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -267,7 +275,7 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Defaults 포스트들에 적용될 기본 설정들
 defaults:
   # _posts
   - scope:
