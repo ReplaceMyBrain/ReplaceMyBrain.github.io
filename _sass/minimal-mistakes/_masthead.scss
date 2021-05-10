@@ -50,13 +50,13 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  font-size: $type-size-4;
-  // z-index: 20;
+  //font-size: $type-size-4;
+  z-index: 40;
 }
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
 }
 
 .masthead__menu {
