@@ -2,9 +2,9 @@
 main:
    - title: "About"
      url: /about/
-   - title: "카테고리"
+   - title: "Categories"
      url: /categories/
-   - title: "프로젝트"
-     url: /categories/프로젝트/
+   - title: "Portfolio"
+     url: /portfolio
   # - title: "Sitemap"
   #   url: /sitemap/
